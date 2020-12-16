@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 106, 255);
+}
+
+header {
+    margin-top: 15px;
+    
+}
+
+
+
+
+/* Navigation Bar Color*/
+.topnav {
+    background-color: rgb(119, 176, 255);
+    height: 150px;
+    padding-top: 15px;
+}
+/* Styles the links in the nav bar */
+.topnav a {
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+/* Color change when hover */
+.topnav a:hover {
+    color:rgb(0, 24, 158);
+    text-shadow: 2px 2px 5px black;
+}
+/* Adding color or underline to the active link */
+.topnav a.active {
+    text-decoration: underline;
+}
+
+/* Background */
+body {
+    width: 960px;
+    background-image: url(../Images/DisneyBackground.jpg);
+    margin: 0 auto;
+}
