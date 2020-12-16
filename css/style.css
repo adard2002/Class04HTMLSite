@@ -26,7 +26,6 @@ header {
     padding-right: 14px;
     text-decoration: none;
     font-size: 24px;
-    
 }
 /* Color change when hover */
 .topnav a:hover {
@@ -43,4 +42,11 @@ body {
     width: 960px;
     background-image: url(../Images/DisneyBackground.jpg);
     margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 106, 255);
+    text-shadow: 2px 2px 5px black;
 }
