@@ -61,6 +61,7 @@ h1 {
     float: left;
     width: 25%;
     padding-right: 80px;
+
 }
 .row::after {
     content: "";
@@ -71,16 +72,6 @@ h1 {
     height: 350px;
     width: 150px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -97,7 +88,7 @@ footer {
     text-align: center;
     padding: 15px;
     background-color: rgb(119, 176, 255);
-    height: 255px;
+    height: 155px;
     font-size: 30px;
     margin-bottom: 15px;
 }
