@@ -24,8 +24,8 @@ if (hourNow > 18 && hourNow < 24) {
     greeting = "Something went wrong!";
  }
 
- document.write('<h1 style="color:yellow">' + greeting + '</h1>');
+ document.write('<h1 style="color:blue">' + greeting + '</h1>');
 
-} //this closes the function
+} // this closes the function
 
 runGreeting();
