@@ -21,32 +21,26 @@
 </header>
 
 <!--Images with movie name underneath the image-->
-<div class="row" style="text-align:center">
-    <div class="column">
-        <img class="disneyImageSize" src="Images/ToyStory.jpg" alt="Toy Story" style="width:100%">
-        <p>Toy Story</p>
-    </div>
-    <div class="column">
-        <img class="disneyImageSize" src="Images/WreckItRalph2.jpg" alt="Wreck It Ralph" style="width:100%">
-        <p>Wreck It Ralph</p>
-    </div>
-    <div class="column">
-        <img class="disneyImageSize" src="Images/ASilentVoice.jpg" alt="A Silent Voice" style="width:100%">
-        <p>A Silent Voice</p>
-    </div>
-    <div class="column">
-        <img class="disneyImageSize" src="Images/FindingNemo2.jpg" alt="Finding Nemo" style="width:100%">
-        <p>Finding Nemo</p>
-    </div>
-    <div class="column">
-        <img class="disneyImageSize" src="Images/MonstersInc.jpeg" alt="Monsters Inc" style="width:100%">
-        <p>Monsters Inc</p>
-    </div>
-    <div class="column">
-        <img class="disneyImageSize" src="Images/TheLionKing.jpg" alt="The Lion King" style="width:100%">
-        <p>The Lion King</p>
-    </div>
-</div>
+
+<main>
+    <h2>New on Disney!</h2>
+
+    <button onclick="reloadStore()">Reload</button>
+    <br>
+    <span id="whatsNew"></span>
+        <ul>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/ToyStory.jpg" alt="Toy Story"></li>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/WreckItRalph2.jpg" alt="Wreck It Ralph"></li>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/ASilentVoice.jpg" alt="A Silent Voice"></li>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/MonstersInc.jpeg" alt="Monsters Inc"></li>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/FindingNemo2.jpg" alt="Finding Nemo"></li>
+            <li><img class="disneyImageSize" class="disneyImage" src="Images/TheLionKing.jpg" alt="The Lion King"></li>
+        </ul>
+</main>
+
+
+
+
 
 <footer>
     <p>
@@ -59,5 +53,6 @@
         <div id="progressbar"></div>
         <div id="scrollPath"></div>
         <script src="js/rainbowprogressbar.js"></script>
+        <script src="js/whatsNew.js"></script>
     </body>
 </html>
